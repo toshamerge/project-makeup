@@ -24,6 +24,19 @@ header {
 
 }
 
+#second__container {
+	background-color: #d1d1d4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#third__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .header {
 	height: 80px;
 	padding: 0 150px;
@@ -86,5 +99,60 @@ header {
 	background-color: #3882f6;
 	border-color: #3882f6;
 	border-width: 0;
-	display: block;
+}
+
+.container {
+	height: 450px;
+}
+
+.container__title {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+.container__cards {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 175px;
+
+}
+
+.card {
+	width: 125px;
+	height: 200px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card__illustration {
+	border: thick solid #32a1ce;
+	padding: 50px 20px;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+.quote {
+	height: 230px;
+	width: 675px;
+}
+
+.quote__text {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #1f2937;
+	font-size: 36px;
+}
+
+.quote__author {
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+	display: flex;
+	flex-direction: row-reverse;
 }
